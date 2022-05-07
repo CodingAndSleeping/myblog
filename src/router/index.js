@@ -5,6 +5,7 @@ import ShowBlogs from '../components/ShowBlogs.vue';
 import SingleBlog from '../components/SingleBlog.vue';
 
 
+
 Vue.use(VueRouter);
 
 export default new VueRouter({
