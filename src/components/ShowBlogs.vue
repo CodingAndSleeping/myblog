@@ -28,7 +28,6 @@ export default {
     axios.get("http://jsonplaceholder.typicode.com/posts").then(
       (response) => {
         this.blogs = response.data.slice(0, 10);
-        // console.log(response.data.slice(0,10));
       },
       (error) => {
         console.log(error.message);
